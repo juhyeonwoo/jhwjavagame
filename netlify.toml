@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"(배포했을때 표시될 html)
+status = 200
