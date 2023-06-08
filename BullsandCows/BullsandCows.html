@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>숫자 야구 게임</title>
+    <link rel="stylesheet" href="BullsandCows.css">
+  </head>
+  <body>
+    <h2 class="heading">숫자 야구 게임</h2>
+    <p class="marquee-text">중복되지 않는 네 자리 수를 입력하세요.</p>
+    <p class="marquee-text marquee-bg">10번의 기회가 있습니다.</p>
+    <form id="game-form">
+      <input type="button" value="reset" onclick="resetGame()" />
+      <input type="button" value="hint" onclick="showHint()" />
+    </form>
+    <div id="result"></div>
+    <script src="BullsandCows.js"></script>
+  </body>
+</html>

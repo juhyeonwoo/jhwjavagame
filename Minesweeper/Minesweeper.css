@@ -1,0 +1,92 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.frame {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mineCover {
+    background-color: rgb(179, 142, 115);
+}
+
+.selectDifficulty {
+    border: 1px solid skyblue;
+    color: skyblue;
+    padding: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hard {
+    color: red;
+    font-weight: bold;
+}
+
+.normal {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.easy {
+    color: green;
+    font-weight: bold;
+}
+
+.mineFrame {
+    margin-top: 20px;
+    display: inline-table;
+    border: 1px solid black;
+    color: black;
+}
+
+#btnMineEasy {
+    margin-right: -4px;
+}
+
+#btnMineNormal {
+    margin-left: -3px;
+    margin-right: -4px;
+}
+
+#btnMineHard {
+    margin-left: -3px;
+}
+
+body {
+    background-color: #f5f2e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainPage {
+    font-size: 20px;
+    text-align: center;
+}
+
+.selectDifficulty {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#mineRemain {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mineAppear {
+    display: flex;
+    justify-content: center;
+}

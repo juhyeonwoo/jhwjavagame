@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>주사위 게임</title>
+    <style>
+body {
+    text-align: center;
+    background-color: #F5F1E7;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#rollBtn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #E78A61;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#dice {
+    font-size: 48px;
+    margin-top: 20px;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFE3D2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.player span {
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 28px;
+    background-color: #EFE3D2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#gameDesc {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <h1>주사위 게임</h1>
+    <div id="gameDesc">
+        <p>10라운드 동안 3개의 주사위를 굴려서 합한 점수가 큰 사람이 승리합니다!</p>
+        <p>3개의 주사위가 전부 같은 숫자라면 점수가 2배입니다!</p>
+    </div>
+    <button id="rollBtn">주사위 굴리기</button>
+    <div id="dice">주사위 결과: </div>
+    <div id="scores">
+        <div class="player">
+            <span>플레이어 1</span>
+            <span id="player1Score">0</span>
+        </div>
+        <div class="player">
+            <span>플레이어 2</span>
+            <span id="player2Score">0</span>
+        </div>
+    </div>
+    <div id="result"></div>
+
+    <script src="Dice.js"></script>
+</body>
+</html>

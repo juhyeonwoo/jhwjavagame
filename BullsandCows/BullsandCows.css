@@ -1,0 +1,43 @@
+/* CSS 코드 */
+body {
+  background-color: #ffd8b4;
+  color: #222;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+}
+
+.marquee-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.marquee-bg {
+  background-color: #ffd8b4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#game-form {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#game-form input[type="button"] {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+}
